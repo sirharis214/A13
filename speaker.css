@@ -1,0 +1,198 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width:800px;
+    margin:0px auto 0px auto;
+    border: 3px solid #931420;
+    background-color:#fffded; 
+}
+
+html{
+	background-color: white;
+}
+
+article{
+	padding: .5em 0em .5em 0em;
+}
+main article img{
+	float: right;
+	margin: 1em 0em 1em .5em;
+	border: 1px solid black;
+}
+main article h2{
+	padding: 0em 0em 0em 0em;
+}
+main article h3{
+	font-size: 105%;
+	padding: 0em 0em .25em 0em;
+}
+/*--------------------------------------------------*/
+/* the styles for the header */
+header img {
+	float: left;
+	padding: 0px 30px 0px 30px;
+}
+header {
+	border-bottom:3px solid #931420;
+	padding: 1.5em 0em 2em 0em;
+	background:linear-gradient(#f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%) ;
+}
+.shadow{
+	 text-shadow: 2px 2px #800000;
+}
+/*--------------------------------------------------*/
+/* the styles for the section */
+section{
+	width: 525px;
+	float: right;
+	padding: 0px 20px 20px 20px;
+}
+
+main section h2{
+	font-size: 100%;
+	color:#800000;	
+	padding: 0.25em 0em .25em 0em;
+
+}
+
+/*--------------------------------------------------*/
+/* the styles for the aside */
+aside{
+	width: 215px;
+	float: right;
+	padding: 0px 0px 20px 20px;
+}
+main aside h2{
+	font-size: 130%;
+	color:#800000;	
+	padding: 0.5em 0em .25em 0em;
+}
+
+main aside h3{
+	font-size: 105%;	
+	padding: 0em 0em .25em 0em;
+}
+main aside img{	
+	padding: 0em 0em 1em 0em;
+}
+
+
+/*--------------------------------------------------*/
+/* the styles for the main */
+main {
+	clear: left;
+}
+main a:hover{
+    font-style: italic;
+}
+
+main p{
+	padding: 0em 0em .5em 0em;
+}
+
+main blockquote{
+	padding: 0em 2em 0em 2em;
+	font-style: italic;
+}
+main ul{
+	padding: 0em 0em .25em 1.25em;
+}
+main li {
+	padding: 0em 0em .35em 0em;
+}
+
+/*--------------------------------------------------*/
+/* the styles for the footer */
+footer p {
+	text-align: center;
+	padding: 1em 0em 1em 0em;
+}
+footer{
+	background-color:#931420;
+	color:white;
+}
+footer.clear{
+	clear:both;
+}
+
+/*--------------------------------------------------*/
+h1{
+	font-size: 150%;
+	padding: .5em 0em 0em 0em;
+	margin: 0em 0em 0em 0em;
+
+}
+/*--------------------------------------------------*/
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+ul li{
+	float: left;
+}
+
+li a{
+	display: block;
+	width:130px;
+	text-align: center;
+	padding:1em 0em 1em 0em;
+	text-decoration: none;
+	background-color: #800000;
+	color:white;
+	font-weight: bold;
+}
+.current{
+	color:yellow;
+}
+
+
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav li>a {
+  padding: 15px 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+nav li>a:hover {
+  background: violet;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 100px;
+  overflow: visible;
+  padding: 0;
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul ul li {
+  background: green;
+  display: block;
+}
+nav ul ul li>a:hover {
+  color: red;
+}
+/*
+main h1{
+	text-indent: 30px;
+	font-size: 150%;
+	border-bottom: 3px solid #931420;
+	border-top: 3px solid #931420;
+	padding: 0.3em 0em;
+	box-shadow: inset 0 0 0 4px #eee;
+  	border-style:double #f06d06;
+  	border-radius: 25px;
+  }
+ */
